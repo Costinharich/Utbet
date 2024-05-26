@@ -3,7 +3,9 @@
         styles.css
     /js
         script.js
-    /index.html <!DOCTYPE html>
+    /index.html
+
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -34,7 +36,9 @@
     </footer>
     <script src="js/script.js"></script>
 </body>
-</html> body {
+</html>
+
+body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -92,6 +96,7 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
 document.addEventListener('DOMContentLoaded', () => {
     console.log('Bem-vindo ao Meu Site!');
 });
